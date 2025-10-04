@@ -14,7 +14,9 @@ function Home() {
                         <li><a href="#">Contato</a></li>
                     </ul>
                     <div className='container-buttons'>
-                        <button>Entrar</button>
+                    <Link to="/login">
+                        <button>Entrar</button> 
+                    </Link>
                     <Link to="/cadastro">
                         <button>Cadastrar</button>
                     </Link>
